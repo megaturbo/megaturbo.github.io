@@ -47,16 +47,40 @@ a:link {
     color: #f2f2f2;
 }
 
+a:hover{
+    color: #a2a2a2;
+}
+
+a.fb:link, a.fb:visited{
+    color: #3b5998;
+}
+
+a.fb:hover, a.fb:active{
+    color: #5984df;
+}
+
 nav a:visited {
     color: #f2f2f2;
 }
 
-nav a:hover {
-    color: #0f9b2b;
+nav a:hover, nav a:active {
+    transition: color 0.7s ease;
 }
 
-nav a:active {
-    color: #0f9b2b;
+nav a.link0:hover{
+    color: #f85f83;
+}
+
+nav a.link1:hover{
+    color: #f7bd1f;
+}
+
+nav a.link2:hover{
+    color: #24d261;
+}
+
+nav a.link3:hover{
+    color: #6537f7;
 }
 
 .page-link:not(:last-child){
@@ -65,6 +89,44 @@ nav a:active {
 
 a{
     text-decoration: none;
+}
+
+/* List nous */
+ul.list-nous{
+    list-style-type: none;
+    width: 300px;
+}
+
+ul.list-nous li{
+    background-size: 200% 100%;
+    background-position:left bottom;
+    transition:all 0.7s ease;
+}
+
+ul.list-nous li:hover{
+    background-position:right bottom;
+}
+ul.list-nous li:not(:last-child){
+    margin-bottom: 0.3em;
+}
+
+li.nous0{
+    background: linear-gradient(to right, transparent 50%, #f85f83 50%);
+}
+li.nous1{
+    background: linear-gradient(to right, transparent 50%, #f7bd1f 50%);
+}
+li.nous2{
+    background: linear-gradient(to right, transparent 50%, #24d261 50%);
+}
+li.nous3{
+    background: linear-gradient(to right, transparent 50%, #6537f7 50%);
+}
+li.nous4{
+    background: linear-gradient(to right, transparent 50%, #f85f83 50%);
+}
+li.nous5{
+    background: linear-gradient(to right, transparent 50%, #f7bd1f 50%);
 }
 
 .content{
@@ -96,12 +158,4 @@ a{
 
 .less{
     color: #bababa;
-}
-
-.fb{
-    color: #3b5998;
-}
-
-.fb:hover{
-    color: #5984df;
 }
