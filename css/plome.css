@@ -1,161 +1,143 @@
-body{
-    font-family: 'Averia Serif Libre', cursive;
-    font-weight: 400;
-    font-size: 1em;
-    min-height: 100vh;
-    background-color: #303030;
-    color: #f2f2f2;
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre:400,400i|Montserrat:900');
+body {
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: 400;
+  font-size: 1em;
+  min-height: 100vh;
+  background-color: #303030;
+  color: #f2f2f2;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
 }
-
-main{
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    display: block;
+main {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: block;
 }
 
 /*************
 * fixed frame
 ****************/
-.frame{
-    box-sizing: border-box;
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    padding: 1.5em;
-    display: grid;
-    pointer-events: none;
-}
 
-.frame a{
-    pointer-events: auto;
+.frame {
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  padding: 1.5em;
+  display: grid;
+  pointer-events: none;
+}
+.frame a {
+  pointer-events: auto;
 }
 
 /*************
 * nav
 ****************/
-nav{
-    position: relative;
-    align-self: end;
-    text-align: right;
-    display: block;
-}
 
+nav {
+  position: relative;
+  align-self: end;
+  text-align: right;
+  display: block;
+}
 a:link {
-    color: #f2f2f2;
+  color: #f2f2f2;
 }
-
-a:hover{
-    color: #a2a2a2;
+a:hover {
+  color: #a2a2a2;
 }
-
-a.fb:link, a.fb:visited{
-    color: #3b5998;
+a.fb:link, a.fb:visited {
+  color: #3b5998;
 }
-
-a.fb:hover, a.fb:active{
-    color: #5984df;
+a.fb:hover, a.fb:active {
+  color: #5984df;
 }
-
 nav a:visited {
-    color: #f2f2f2;
+  color: #f2f2f2;
 }
-
 nav a:hover, nav a:active {
-    transition: color 0.7s ease;
+  transition: color 0.7s ease;
 }
-
-nav a.link0:hover{
-    color: #f85f83;
+nav a.link0:hover {
+  color: #f85f83;
 }
-
-nav a.link1:hover{
-    color: #f7bd1f;
+nav a.link1:hover {
+  color: #f7bd1f;
 }
-
-nav a.link2:hover{
-    color: #24d261;
+nav a.link2:hover {
+  color: #24d261;
 }
-
-nav a.link3:hover{
-    color: #6537f7;
+nav a.link3:hover {
+  color: #6537f7;
 }
-
-.page-link:not(:last-child){
-    margin-right: 1em;
+.page-link:not(:last-child) {
+  margin-right: 1em;
 }
-
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 /* List nous */
-ul.list-nous{
-    list-style-type: none;
-    width: 300px;
-}
 
-ul.list-nous li{
-    background-size: 200% 100%;
-    background-position:left bottom;
-    transition:all 0.7s ease;
+ul.list-nous {
+  list-style-type: none;
+  width: 300px;
 }
-
-ul.list-nous li:hover{
-    background-position:right bottom;
+ul.list-nous li {
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all 0.7s ease;
 }
-ul.list-nous li:not(:last-child){
-    margin-bottom: 0.3em;
+ul.list-nous li:hover {
+  background-position: right bottom;
 }
-
-li.nous0{
-    background: linear-gradient(to right, transparent 50%, #f85f83 50%);
+ul.list-nous li:not(:last-child) {
+  margin-bottom: 0.3em;
 }
-li.nous1{
-    background: linear-gradient(to right, transparent 50%, #f7bd1f 50%);
+li.nous0 {
+  background: linear-gradient(to right, transparent 50%, #f85f83 50%);
 }
-li.nous2{
-    background: linear-gradient(to right, transparent 50%, #24d261 50%);
+li.nous1 {
+  background: linear-gradient(to right, transparent 50%, #f7bd1f 50%);
 }
-li.nous3{
-    background: linear-gradient(to right, transparent 50%, #6537f7 50%);
+li.nous2 {
+  background: linear-gradient(to right, transparent 50%, #24d261 50%);
 }
-li.nous4{
-    background: linear-gradient(to right, transparent 50%, #f85f83 50%);
+li.nous3 {
+  background: linear-gradient(to right, transparent 50%, #6537f7 50%);
 }
-li.nous5{
-    background: linear-gradient(to right, transparent 50%, #f7bd1f 50%);
+li.nous4 {
+  background: linear-gradient(to right, transparent 50%, #f85f83 50%);
 }
-
-.content{
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+li.nous5 {
+  background: linear-gradient(to right, transparent 50%, #f7bd1f 50%);
 }
-
-#plome-title{
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    font-size: 8em;
-    color: #f2f2f2;
+.content {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-.text-container{
-    text-align: left;
-    width: 500px;
+#plome-title {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 8em;
+  color: #f2f2f2;
 }
-
-.strong{
-    font-size: 1.5em;
+.text-container {
+  text-align: left;
+  width: 500px;
 }
-
-.less{
-    color: #bababa;
+.strong {
+  font-size: 1.5em;
+}
+.less {
+  color: #bababa;
 }
