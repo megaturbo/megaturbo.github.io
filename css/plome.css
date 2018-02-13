@@ -91,6 +91,10 @@ a{
     text-decoration: none;
 }
 
+li.past{
+  text-decoration:line-through;
+}
+
 /* List nous */
 ul.list-nous{
     list-style-type: none;
