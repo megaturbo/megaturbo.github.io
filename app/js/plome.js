@@ -27,7 +27,6 @@ function glow_title(){
 function make_it_glow(){
     glow_title()
     r_i += 1;
-    console.log(r[r_i % r.length]);
     var duration = (r[r_i % r.length] * r_rate * 60 * 1000) / r_bpm;
     setTimeout(make_it_glow, duration);
 }
@@ -42,3 +41,10 @@ $(document).on('click', 'a[href^="#"]', function(event){
 });
 
 make_it_glow();
+
+
+$(function() {
+  $(window).load(function() {
+    console.log("🥒'ed by @nichuguen & @megaturbo");
+  });
+});
