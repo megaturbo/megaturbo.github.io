@@ -163,3 +163,8 @@ li.nous5{
 .less{
     color: #bababa;
 }
+
+#page-band hr{
+  width: 15em;
+  border-color: #c0bfbf;
+}
