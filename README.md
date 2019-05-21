@@ -18,4 +18,4 @@ A simple webapp to show some love to Plome.
 
 ## Test locally
 
-Simply open the `app/index.html` file with your web browser, and you're set.
+`python -m http.server 8000 --directory app/`
