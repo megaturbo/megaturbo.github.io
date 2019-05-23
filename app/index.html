@@ -14,6 +14,7 @@
 
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
   <script src="./js/plome.js"></script>
 
 </head>
@@ -45,11 +46,7 @@
 
     <div class="content" id="page-concerts">
       <div class="text-container" id="text-container">
-        <ul>
-          <li class="past">25.08.2017 : Maz'août Fest <i class="less">Saint-Imier</i></li>
-          <li class="past">18.08.2017 : ZEUPR FEST <i class="less">Corcelles</i></li>
-          <li class="past">22.05.2017 : La Machine à Trucs <i class="less">la Chaux-de-Fonds</i></li>
-          <li class="past">19.05.2017 : BFM <i class="less">Saignelégier</i></li>
+        <ul id="target-dates">
         </ul>
       </div>
     </div>
@@ -83,6 +80,25 @@
       </div>
     </div>
   </main>
+
+  <!-- mustache.js templates -->
+  <script id="template-dates" type="text/x-handlebars-template">
+    <ul>
+    {{#shows}}
+      <li {{#if past}}class="past"{{/if}}>
+        {{#if link}}
+        <a href="{{link}}" target="_blank">
+        {{/if}}
+          <span class="date">{{ date }}</span>
+           : {{ name }}
+          <i class="less">{{ where }}{{#if feat}}, w/ {{feat}}{{/if}}</i>
+        {{#if link}}
+        </a>
+        {{/if}}
+      </li>
+    {{/shows}}
+    </ul>
+  </script>
 </body>
 
 </html>
