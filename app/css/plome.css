@@ -161,6 +161,10 @@ ul{
   list-style-type: none;
 }
 
+li:not(.past) + .past{
+  margin-top: 10px;
+}
+
 li.past{
   filter:brightness(70%);
 }
