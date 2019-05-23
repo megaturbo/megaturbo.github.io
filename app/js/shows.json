@@ -1,0 +1,53 @@
+{
+  "shows": [
+    {
+      "date": "2019-08-03",
+      "name": "Out in the Gurin",
+      "where": "Sargans",
+      "feat": "",
+      "link": "http://www.outinthegurin.ch"
+    },
+    {
+      "date": "2018-06-30",
+      "name": "Fête de la musique",
+      "where": "La Chaux-de-Fonds",
+      "feat": "",
+      "link": ""
+    },
+    {
+      "date": "2017-11-11",
+      "name": "SAS",
+      "where": "Delémont",
+      "feat": "QUI (feat. Trevor DUNN), Lafopaes & ALEX Kittel",
+      "link": "https://www.sasdelemont.ch/welcome/getband/2771"
+    },
+    {
+      "date": "2017-08-25",
+      "name": "Maz'août Fest",
+      "where": "Saint-Imier",
+      "feat": "",
+      "link": "https://www.facebook.com/events/820839044737944/"
+    },
+    {
+      "date": "2017-08-18",
+      "name": "ZEUPR FEST",
+      "where": "Corcelles",
+      "feat": "",
+      "link": "https://laprise.noblogs.org/zeupr-fest-4th-18-19-08-prog-artists/"
+    },
+    {
+      "date": "2017-08-18",
+      "name": "La Machine à Trucs",
+      "where": "La Chaux-de-Fonds",
+      "feat": "CHROMB !",
+      "link": "https://www.facebook.com/events/198861753952048/"
+    },
+    {
+      "date": "2017-05-19",
+      "name": "BFM",
+      "where": "Saignelégier",
+      "feat": "ApOllonius AbRaham ScHwarz",
+      "link": "https://www.facebook.com/events/707235029456955/"
+    }
+  ]
+}
