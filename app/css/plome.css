@@ -64,6 +64,13 @@ a.fb:hover, a.fb:active{
     color: #5984df;
 }
 
+a.bandcamp:link, a.bandcamp:visited{
+    color: hsl(140, 44%, 41%);
+}
+
+a.bandcamp:hover, a.bandcamp:active{
+    color: hsl(140, 45%, 49%);
+}
 nav a:visited {
     color: #f2f2f2;
 }
