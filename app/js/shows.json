@@ -1,6 +1,20 @@
 {
   "shows": [
     {
+      "date": "2019-08-04",
+      "name": "Café Fleuri im BOGA",
+      "where": "Bern",
+      "feat": "",
+      "link": "https://www.facebook.com/events/1423487247794532/"
+    },
+    {
+      "date": "2019-08-04",
+      "name": "Klimafestival",
+      "where": "Zürich",
+      "feat": "",
+      "link": "https://www.facebook.com/events/666637543815320/"
+    },
+    {
       "date": "2019-08-03",
       "name": "Out in the Gurin",
       "where": "Sargans",
