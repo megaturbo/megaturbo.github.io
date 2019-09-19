@@ -1,6 +1,13 @@
 {
   "shows": [
     {
+      "date": "2020-01-11",
+      "name": "LAC",
+      "where": "La Chaux-de-Fonds",
+      "feat": "Ni",
+      "link": ""
+    },
+    {
       "date": "2019-10-03",
       "name": "Anton",
       "where": "Luzern, Industriestrasse 9",
