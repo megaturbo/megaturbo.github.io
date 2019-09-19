@@ -1,6 +1,13 @@
 {
   "shows": [
     {
+      "date": "2019-10-03",
+      "name": "Anton",
+      "where": "Luzern, Industriestrasse 9",
+      "feat": "Jeremias Kellers Vertigo",
+      "link": ""
+    },
+    {
       "date": "2019-08-04",
       "name": "Café Fleuri im BOGA",
       "where": "Bern",
