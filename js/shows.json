@@ -9,8 +9,8 @@
     },
     {
       "date": "2019-10-03",
-      "name": "Anton",
-      "where": "Luzern, Industriestrasse 9",
+      "name": "Industriestrasse",
+      "where": "Luzern",
       "feat": "Jeremias Kellers Vertigo",
       "link": ""
     },
@@ -41,6 +41,13 @@
       "where": "La Chaux-de-Fonds",
       "feat": "",
       "link": ""
+    },
+    {
+      "date": "2017-12-02",
+      "name": "Espace Noir",
+      "where": "St-Imier",
+      "feat": "Al Zeimer Memorial",
+      "link": "https://www.facebook.com/events/850902715078572/"
     },
     {
       "date": "2017-11-11",
