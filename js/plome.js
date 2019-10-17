@@ -21,6 +21,7 @@ function showShows() {
   $.getJSON("js/shows.json", (shows) => {
     // compute past status
     const today = Date.now();
+    today.setHours(0,0,0,0);
     shows.shows.map(show => {
       show.past = today > Date.parse(show.date);
       return show;
