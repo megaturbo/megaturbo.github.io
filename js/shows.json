@@ -1,6 +1,20 @@
 {
   "shows": [
     {
+      "date": "2020-11-14",
+      "name": "Sans titre",
+      "where": "St-Gall",
+      "feat": "",
+      "link": ""
+    },
+    {
+      "date": "2020-07-24",
+      "name": "FestiWald 2020",
+      "where": "Marly, Fribourg",
+      "feat": "",
+      "link": "https://www.facebook.com/events/174020443964298/"
+    },
+    {
       "date": "2020-03-06",
       "name": "Carré noir - First Friday",
       "where": "Biel/Bienne",
