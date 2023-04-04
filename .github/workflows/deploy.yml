@@ -7,6 +7,7 @@ on:
       
 jobs:
   deploy:
+    runs-on: ubuntu-latest
     steps:
       - name: FTP deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
